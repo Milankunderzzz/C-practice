@@ -1,0 +1,41 @@
+Problem Description
+
+In the Windows console environment, all characters are monospaced. By default, each line in the window contains 80 characters, and each screen has 25 lines, forming a character matrix. Using this feature of the console, we can draw simple graphics.
+
+Below is an example of a 5×7 figure:
+
+ABCDEFG
+BABCDEF
+CBABCDE
+DCBABCD
+EDCBABC
+
+Find the pattern of this figure and draw a **10×18** figure.
+
+
+ Input
+
+None
+
+ Output
+
+Output a **10×18** figure similar to the one above.
+
+
+ Sample Input
+
+
+None
+
+ Sample Output
+
+ABCDEFGHIJKLMNOPQR
+BABCDEFGHIJKLMNOPQ
+CBABCDEFGHIJKLMNOP
+DCBABCDEFGHIJKLMNO
+EDCBABCDEFGHIJKLMN
+FEDCBABCDEFGHIJKLM
+GFEDCBABCDEFGHIJKL
+HGFEDCBABCDEFGHIJK
+IHGFEDCBABCDEFGHIJ
+JIHGFEDCBABCDEFGHI
