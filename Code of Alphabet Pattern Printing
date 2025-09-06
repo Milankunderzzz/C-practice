@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows = 10;   
+    int cols = 18;  
+
+    for (int i = 0; i < rows; i++) {
+        // the first part
+        for (int j = i; j >= 0; j--) {
+            cout << char('A' + j);
+        }
+
+        // the second part
+        for (int k = 1; k < cols - i; k++) {
+            cout << char('A' + k);
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}
